@@ -29,3 +29,14 @@ section img {
    width:50%;
     height:50%;
 }
+footer{
+    background-color:  rgb(202, 247, 216);;
+    color: rgb(0, 0, 0);
+    padding-top: 30px;
+
+    padding-left: 80%;
+    font-size: 2rem;
+}
+    footer>p>img{
+    width: 30px;
+}

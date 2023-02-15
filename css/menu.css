@@ -1,6 +1,7 @@
 header h1, .menu-hamburgesa {
     display: inline-block;
     vertical-align: middle;
+    z-index: 1;
 }
 
 header h1 {
