@@ -1,0 +1,66 @@
+header h1, .menu-hamburgesa {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header h1 {
+    width: 80%;
+}
+
+.menu-hamburgesa {
+    width: 10%;
+    margin-top: 10px;
+    padding-left: 2%;
+    float: left;
+    position: relative;
+}
+
+.menu-hamburgesa input,
+.menu-hamburgesa label img {
+    height: 50px;
+    width: 50px;
+}
+
+.menu-hamburgesa label:hover {
+    cursor: pointer;
+}
+
+.menu-hamburgesa input {
+    display: none;
+}
+
+.menu-hamburgesa input:checked ~ #miMenu {
+    display: block;
+}
+
+#miMenu {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: none;
+    width: 100vw;
+}
+
+#miMenu li{
+    list-style: none;
+    width: 100%;
+}
+
+#miMenu li a {
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    background-color: rgb(57, 207, 52);
+    color: black;
+    width: 100%;
+    font-weight: bold;
+}
+
+#miMenu li a:hover {
+    background-color: rgb(92, 231, 110);
+    color: black;
+    cursor: pointer;
+}
+
