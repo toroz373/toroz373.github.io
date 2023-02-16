@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="shortcut icon" href="../images/DVD2.png">
+
+</head>
+<body>
+    <header>
+        <h1>Galerias Clavel</h1> 
+        <nav class="menu-hamburgesa">
+            <label for="hamburgesa">
+                <img src="images/DVD2.png" alt="Menu Hamburgesa">
+            </label>
+            <input type="checkbox" id="hamburgesa">
+            <ul id="miMenu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="galeriaa.html">Galeria</a></li>
+                <li><a href="aboutas.html">Sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h2>Contactanos</h2>
+    <form action="contacto.php" enctype="multipart/form-data" method="post"></form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" required>*
+            </p>
+            <p>
+                <label for="correo">Correo</label>
+                <input type="text" name="Correo" id="Correo" required>*
+
+            </p>
+            <p>
+                <label for="Pais">Pais</label>
+                <input type="text" name="Pais" id="Pais" required>*
+                
+            </p>
+            
+            </fieldset>
+
+            <p>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+        <footer>
+            <p>Sigueme en:
+            <img src="../images/social/facebook.png" alt=""/>
+            <img src="../images/social/instagram.png" alt=""/>
+            <img src="../images/social/twitter.png" alt=""/>
+            </p>
+        </footer>
+</body>
+</html>
