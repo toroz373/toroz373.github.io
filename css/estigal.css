@@ -52,8 +52,8 @@
 .imagenes-galeria:hover figcaption {
     transform: translateY(-200px);
     height: 200px;
-    opacity: 0.5;
-    font-size: 1.5rem;
+    opacity: 1;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 780px){
