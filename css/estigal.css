@@ -45,7 +45,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     transition-property: transform height opacity;
     transition-duration: 0.5s;
 }
