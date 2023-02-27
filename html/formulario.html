@@ -13,22 +13,22 @@
 </head>
 <body>
     <header>
-        <h1>Galerias Clavel</h1> 
+        <h1><img src="../images/DVD2.png">Galerias Clavel<img src="../images/DVD2.png"></h1> 
         <nav class="menu-hamburgesa">
             <label class="img-menu" for="hamburgesa">
-                <img src="images/DVD2.png" alt="Menu Hamburgesa">
+                <img src="../images/menu.png" alt="Menu Hamburgesa">
             </label>
             <input type="checkbox" id="hamburgesa">
             <ul id="miMenu">
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="galeriaa.html">Galeria</a></li>
                 <li><a href="aboutas.html">Sobre nosotros</a></li>
+                <li><a href="#">Contactanos</a></li>
             </ul>
         </nav>
     </header>
-    <hr>
+    <div class="formulario">
     <h2>Contactanos</h2>
-    <form action="contacto.php" enctype="multipart/form-data" method="post"></form>
         <fieldset>
             <legend>Datos Personales</legend>
             <p>
@@ -45,7 +45,11 @@
                 <input type="text" name="Pais" id="Pais" required>*
                 
             </p>
-            
+            <p>
+                <label for="mensj">Mensaje</label>
+                <p><textarea name="menjs" rows="5" cols="50"></textarea></p>   
+            </p>
+
             </fieldset>
 
             <p>
@@ -53,6 +57,7 @@
                 <input type="submit" value="Enviar">
             </p>
         </form>
+    </div>
         <footer>
             <p>Sigueme en:
             <img src="../images/social/facebook.png" alt=""/>
