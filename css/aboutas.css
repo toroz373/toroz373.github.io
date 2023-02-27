@@ -1,7 +1,9 @@
 
-P{
+.textaco{
     padding: 2rem;
     font-size: 3rem;
     text-align: center;
-    padding-bottom:200px;
+    padding-top: 200px;
+    padding-bottom: 600px;
+    color: rgb(156, 110, 12);
 }

@@ -1,7 +1,6 @@
 header h1, .menu-hamburgesa {
     display: inline-block;
     vertical-align: middle;
-    z-index: 1;
 }
 
 header h1 {
@@ -16,8 +15,7 @@ header h1 {
     position: relative;
 }
 
-.menu-hamburgesa input,
-.menu-hamburgesa label img {
+.menu-hamburgesa input, .menu-hamburgesa label img {
     height: 50px;
     width: 50px;
 }
@@ -39,7 +37,7 @@ header h1 {
     top: 70px;
     left: 0;
     display: none;
-    width: 100vw;
+    width: 98.82vw;
 }
 
 #miMenu li{
@@ -53,15 +51,44 @@ header h1 {
     font-size: 2rem;
     padding: 2rem;
     text-decoration: none;
-    background-color: rgb(57, 207, 52);
+    background-color: rgb(85, 223, 85);
+    border: 1px solid black;
     color: black;
     width: 100%;
     font-weight: bold;
 }
 
 #miMenu li a:hover {
-    background-color: rgb(92, 231, 110);
-    color: black;
+    background-color: lightgray;
+    color: rgb(255, 148, 8);
     cursor: pointer;
 }
 
+
+@media all and (min-width: 1000px) {
+
+
+    .img-menu{
+      display: none;
+    }
+
+    #miMenu {
+        display:inline-flex;
+        list-style: none;
+        padding: 0;
+        margin-right: 0;
+        padding-right: 0;
+        margin-bottom: 1px;
+
+    }
+    
+    .miMenuli {
+        display: block;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+
+    }
+
+}
