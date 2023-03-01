@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin-bottom: 0;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(320deg, rgba(16, 221, 44, 0.678), rgba(236, 86, 27, 0.938));
