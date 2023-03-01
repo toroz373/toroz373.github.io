@@ -53,3 +53,13 @@ footer {
 footer>p>a>img{
     width: 30px;
 }
+@media only screen and (max-width: 480px) {
+    footer{
+        padding-left: 30%;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+  footer {
+    padding-left: 30%;
+  }
+  }
