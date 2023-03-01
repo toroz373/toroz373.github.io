@@ -1,39 +1,27 @@
-  
-.slider{
-  margin-top: 30%;
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-}
-.slider ul{
-  align-items: center;
-  display:flex;
-  padding:0;
-  width: 400%;
-  height: 70%;
-  vertical-align: middle;
-  animation: cambio 20s infinite alternate;
-}
-.slider li{
-  list-style:none;
-}
-.slider img{
-  width: 100%;
-  height: 100%;
-    object-fit: cover;
+
+body { margin: 0; } 
+.slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+.slider figure img { width: 20%; float: left; }
+.slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
 }
 
-@keyframes cambio{
-  0%{margin-left: 0;}
-  20%{margin-left: 0;}
 
-  25%{margin-left: -100%;}
-  45%{margin-left: -100%;}
-
-  50%{margin-left: -200%;}
-  70%{margin-left: -200%;}
-
-  75%{margin-left: -300%;}
-  100%{margin-left: -300%;}
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
-

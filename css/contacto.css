@@ -1,6 +1,9 @@
 P{
     font-size: 2rem;
     padding-bottom: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 140px
 }
 h2{
     padding: 2rem;
@@ -14,5 +17,5 @@ legend{
 .formulario{
     padding: 2rem;
     padding-top: 5%;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
 }
