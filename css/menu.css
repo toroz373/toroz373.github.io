@@ -60,7 +60,7 @@ header h1 {
     text-decoration: none;
     background: linear-gradient(320deg, rgba(145, 143, 248, 0.678), rgba(127, 211, 236, 0.938));
     border: 1px solid black;
-    color: black;
+    color: rgb(5, 163, 5);
     width: 100%;
     font-weight: bold;
 }

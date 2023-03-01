@@ -30,6 +30,7 @@ h1 {
     font-size: 2.5rem;
     text-align: center;
     padding: 2rem;
+    color: rgb(5, 163, 5);
 }
 
 header {
@@ -40,26 +41,17 @@ header {
 
 footer {
     background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
-    color: rgb(0, 0, 0);
+    color: rgb(5, 163, 5);
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;    
+    width: 100%;
     padding-top: 3%;
-    padding-left: 80%;
+    padding-left: 4%;    
+    padding-bottom: 2%;
     font-size: 2.5rem;
     display: flex;
 }   
 footer>p>a>img{
     width: 30px;
 }
-@media only screen and (max-width: 480px) {
-    footer{
-        padding-left: 30%;
-    }
-  }
-  @media only screen and (max-width: 360px) {
-  footer {
-    padding-left: 30%;
-  }
-  }
