@@ -44,7 +44,7 @@ header h1 {
     top: 70px;
     left: 0;
     display: none;
-    width: 99.09vw;
+    width: 187rem;
 }
 
 #miMenu li{
@@ -58,7 +58,7 @@ header h1 {
     font-size: 2rem;
     padding: 2rem;
     text-decoration: none;
-    background-color: rgb(85, 223, 85);
+    background: linear-gradient(320deg, rgba(145, 143, 248, 0.678), rgba(127, 211, 236, 0.938));
     border: 1px solid black;
     color: black;
     width: 100%;

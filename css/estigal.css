@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
-
+.main{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
 .galeria {
     margin: 2rem;
     font-size: 0;
@@ -56,9 +59,14 @@
 }
 
 @media screen and (max-width: 780px){
+    .main{
+        padding-bottom: 15%;
+    }
     .imagenes-galeria{
         width: 90%;
         margin-left: 5%;
+        
+    
     }
 
     .imagenes-galeria:nth-child(4n+1){
@@ -67,9 +75,13 @@
 }
 
 @media screen and (max-width: 1024px) and (min-width: 780px) {
+    .main{
+        padding-bottom: 15%;
+    }
     .imagenes-galeria{
         width: 45%;
         margin-left: 5%;
+        padding-bottom: 15%;
     }
 
     .imagenes-galeria:nth-child(2n+1){

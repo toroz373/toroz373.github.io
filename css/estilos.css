@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(320deg, rgba(16, 221, 44, 0.678), rgba(236, 86, 27, 0.938));
+    background: linear-gradient(320deg, rgba(12, 250, 4, 0.678), rgba(0, 116, 19, 0.938));
     
     
 }
@@ -24,20 +24,32 @@ h1 {
 }
 
 header {
-    background: linear-gradient(320deg, rgba(160, 236, 125, 0.678), rgba(255, 183, 154, 0.938));
+    background: linear-gradient(320deg, rgba(145, 143, 248, 0.678), rgba(127, 211, 236, 0.938));
     height: 80px;
+    animation: anim 30seg  infinite alternate;
+}
+@keyframes anim{
+    0% {background-color: rgb(255, 123, 0);} /*Amarillo*/
+   25% {background-color: rgb(4, 253, 79);} /*Naranja*/
+   50% {background-color: #00aeff;} /*Negro*/
+   75% {background-color: rgb(255, 0, 0);} /*Otra vez naranja*/
+  100% {background-color: rgb(253, 253, 6);} /*Otra vez amarillo*/
+}
+body {
+  animation-name: anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
-
 footer {
-    background: linear-gradient(320deg, rgba(160, 236, 125, 0.678), rgba(255, 183, 154, 0.938));
+    background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
     color: rgb(0, 0, 0);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;    
     padding-top: 3%;
-    padding-left: 70%;
+    padding-left: 80%;
     font-size: 2.5rem;
     display: flex;
 }   
