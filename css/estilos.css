@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     margin-bottom: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background: linear-gradient(320deg, rgba(112, 240, 108, 0.678), rgba(2, 182, 32, 0.938));
     animation-name: anim;
     animation-duration: 5s;
@@ -27,14 +27,14 @@ html {
 }
 
 h1 {
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 3rem;
+    text-align:left;
     padding: 2rem;
     color: rgb(5, 163, 5);
 }
 
 header {
-    background: linear-gradient(320deg, rgba(145, 143, 248, 0.678), rgba(127, 211, 236, 0.938));
+    background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
     height: 80px;
 }
 
@@ -47,9 +47,9 @@ footer {
     bottom: 0;
     width: 100%;
     padding-top: 3%;
-    padding-left: 4%;    
+    padding-left: 5%;    
     padding-bottom: 2%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
 }   
 footer>p>a>img{

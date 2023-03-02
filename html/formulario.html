@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <h1><img src="../images/DVD2.png">Galerias Clavel<img src="../images/DVD2.png"></h1> 
+        <h1><img src="../images/DVD2.png">Galerias Clavel</h1> 
         <nav class="menu-hamburgesa">
             <label class="img-menu" for="hamburgesa">
                 <img src="../images/menu.png" alt="Menu Hamburgesa">
@@ -28,39 +28,30 @@
         </nav>
     </header>
     <div class="formulario">
-    <h2>Contactanos</h2>
-        <fieldset>
-            <legend>Datos Personales</legend>
-            <p>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre" required>
-                <abbr title="required" aria-label="required">*</abbr>
-            </p>
-            <p>
-                <label for="correo">Correo</label>
-                <input type="text" name="Correo" id="Correo" required>
-                <abbr title="required" aria-label="required">*</abbr>
+            <form action="/my-handling-form-page" method="post">
+                <legend>Contactanos:</legend>
+                <ul>
+                 <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name" required>
+                 </li>
+                 <li>
+                   <label for="mail">Correo electrónico:</label>
+                   <input type="email" id="mail" name="user_mail" required>
+                 </li>
+                 <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Envíar</button>
+                  </li>
 
-            </p>
-            <p>
-                <label for="Pais">Pais</label>
-                <input type="text" name="Pais" id="Pais" required>
-                <abbr title="required" aria-label="required">*</abbr>
+                </ul>
                 
-            </p>
-            <p>
-                <label for="mensj">Mensaje</label>
-                <p><textarea name="menjs" rows="5" cols="50"></textarea></p>
-                <abbr title="required" aria-label="required">*</abbr>  
-            </p>
+               </form>
 
-            </fieldset>
 
-            <p>
-                <input type="reset" value="Limpiar">
-                <input type="submit" value="Enviar">
-            </p>
-        </form>
     </div>
         <footer>
             <p>Sigueme en:
