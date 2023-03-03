@@ -7,30 +7,19 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-body {
-    background: linear-gradient(320deg, rgba(112, 240, 108, 0.678), rgba(2, 182, 32, 0.938));
-    animation-name: anim;
-    animation-duration: 5s;
-    animation-iteration-count: infinite; 
-    animation-direction: alternate; 
-}
-@keyframes anim{
-    0% {background-color: rgb(255, 123, 0);} 
-   25% {background-color: rgb(4, 253, 79);} 
-   50% {background-color: aqua} 
-   75% {background-color: rgb(255, 0, 0);} 
-  100% {background-color: rgb(253, 253, 6);} 
-}
-
 html {
     font-size: 10px;
+}
+
+body {
+    background: linear-gradient(320deg, rgba(112, 240, 108, 0.678), rgba(2, 182, 32, 0.938));
 }
 
 h1 {
     font-size: 3rem;
     text-align:left;
     padding: 2rem;
-    color: rgb(5, 163, 5);
+    color: rgb(7, 122, 3);
 }
 
 header {
@@ -41,7 +30,7 @@ header {
 
 footer {
     background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
-    color: rgb(5, 163, 5);
+    color: rgb(7, 122, 3);
     position: fixed;
     left: 0;
     bottom: 0;
@@ -51,7 +40,8 @@ footer {
     padding-bottom: 2%;
     font-size: 3rem;
     display: flex;
-}   
+}  
+
 footer>p>a>img{
     width: 30px;
 }
