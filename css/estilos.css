@@ -15,12 +15,14 @@ body {
     background: linear-gradient(320deg, rgba(112, 240, 108, 0.678), rgba(2, 182, 32, 0.938));
 }
 
+
 h1 {
     font-size: 300%;
     text-align:left;
     padding: 1rem;
     color: rgb(7, 122, 3);
     vertical-align: middle;
+    display: inline-block;
 }
 
 header {
@@ -28,6 +30,15 @@ header {
     height: 80px;
 }
 
+header h1 img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    text-align:left;
+    vertical-align: middle;
+    display: inline-block;
+
+}
 
 footer {
     background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
