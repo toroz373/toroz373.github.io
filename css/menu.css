@@ -1,18 +1,14 @@
 header h1 img{
     height: 40px;
     width: 40px;
+    text-align:left;
     vertical-align: middle;
-    align-items: center;
+
 }
 
 header h1, .menu-hamburgesa {
     display: inline-block;
     vertical-align: middle;
-}
-
-header h1 {
-    width: 80%;
-    align-items: center;
 }
 
 .menu-hamburgesa {

@@ -18,8 +18,9 @@ body {
 h1 {
     font-size: 300%;
     text-align:left;
-    padding: 2rem;
+    padding: 1rem;
     color: rgb(7, 122, 3);
+    vertical-align: middle;
 }
 
 header {
@@ -38,7 +39,7 @@ footer {
     padding-top: 3%;
     padding-left: 5%;    
     padding-bottom: 2%;
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
 }  
 
