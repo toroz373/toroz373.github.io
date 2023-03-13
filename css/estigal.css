@@ -1,21 +1,23 @@
 
 .main{
     padding-top: 3%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
 .galeria {
     margin: 2rem;
     font-size: 0;
     padding-top: 1rem;
+    align-items: center;
     box-sizing: border-box;
     margin-top: 5%;
+    padding-left: 2%;
 }
 
 .imagenes-galeria {
     border: 2px solid rgb(233, 130, 13);;
     display: inline-block;
     vertical-align: top;
-    width: 24%;
+    width: 23%;
     height: 300px;
     margin-bottom: 2rem;
 }
@@ -26,7 +28,7 @@
 }
 
 .imagenes-galeria:nth-child(4n+1) {
-    margin-left: 0.5%;
+    margin-left: 1%;
 }
 
 
@@ -43,19 +45,16 @@
     padding: 2%;
     height: 10%;
     color: rgb(182, 106, 8);
-
     display: flex;
     justify-content: center;
     align-items: center;
-    transition-property: transform height opacity;
-    transition-duration: 0.5s;
 }
 
-.imagenes-galeria:hover figcaption {
-    transform: translateY(-200px);
-    height: 200px;
+.imagenes-galeria:hover img {
     opacity: 1;
     font-size: 2rem;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25)
 }
 
 @media screen and (max-width: 780px){
