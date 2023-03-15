@@ -51,7 +51,13 @@ header h1 img{
     display: inline-block;
 
 }
-
+.texto{
+    font-size: 210%;
+    display: absolute;
+    text-align: center;
+    padding-top: 5%;
+    color: rgb(124, 87, 6);
+}
 footer {
     background: linear-gradient(320deg, rgba(255, 167, 4, 0.678), rgba(192, 113, 81, 0.938));
     color: rgb(7, 122, 3);

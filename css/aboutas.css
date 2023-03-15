@@ -4,18 +4,13 @@
     font-size: 200%;
     display: absolute;
     text-align: center;
-    padding-top: 3%;
+    padding-top: 5%;
     padding-bottom: 12%;
     color: rgb(124, 87, 6);
 }
 .textaco p{
     margin-top: 3%;
     margin-bottom: 3%;
-}
-@keyframes latidos {
-    from { transform: none; }
-    50% { transform: scale(2); }
-    to { transform: none; }
 }
 .corazon {
 	display: inline-block;
@@ -24,5 +19,11 @@
 	animation: latidos .5s infinite;
 	transform-origin: center;
 }
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(2); }
+    to { transform: none; }
+}
+
 
 

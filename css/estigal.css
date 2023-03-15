@@ -14,7 +14,6 @@
 }
 
 .imagenes-galeria {
-    border: 2px solid rgb(233, 130, 13);;
     display: inline-block;
     vertical-align: top;
     width: 23%;
@@ -53,8 +52,8 @@
 .imagenes-galeria:hover img {
     opacity: 1;
     font-size: 2rem;
-    -webkit-transform: scale(1.25);
-    transform: scale(1.25)
+    -webkit-transform: scale(1.21);
+    transform: scale(1.21)
 }
 
 @media screen and (max-width: 780px){
