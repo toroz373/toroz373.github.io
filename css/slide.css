@@ -1,8 +1,9 @@
 .slider {
-	width:60%;
-    height: 60%;
+	width:30%;
+    height: auto;
 	margin:1% auto 0;
 	overflow: hidden;
+	padding-bottom: 10%;
 }
 .slider ul {
 	display: flex;
