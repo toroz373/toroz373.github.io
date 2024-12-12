@@ -1,0 +1,1 @@
+Esto es el readme, deberia decir cosas sobre el codigo, creo, pero me da toda la pereza, asi que dire que todo lo que hay aqui lo he sacado de otros sitios y que pase lo que pase, estes donde estes, te quiero.
